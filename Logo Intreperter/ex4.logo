@@ -1,0 +1,15 @@
+setpos [ 100 100 ]
+setx 0
+sety 0
+setxy 100 0
+sety 100
+make "i 10
+if :i > 10 [
+setx 0
+sety 0
+]
+while [ :i > 10] [
+
+ fd 90
+ rt 30
+]
